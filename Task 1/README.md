@@ -30,6 +30,9 @@ This repository demonstrates the entire NLP pipeline: from data downloading and 
 
 1. Training loss and Validation loss:
    <img width="796" height="743" alt="image" src="https://github.com/user-attachments/assets/a3771055-2d85-4354-b41e-f2e868e27594" />
+
+
+   
 2. Generated text(1000 characters):
    <img width="584" height="947" alt="image" src="https://github.com/user-attachments/assets/cef822ad-a42a-4d55-820f-895438e150ea" />
 
