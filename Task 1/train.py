@@ -5,7 +5,7 @@ from model import GPTLanguageModel
 
 batch_size = 16
 block_size = 64    
-max_iters = 5000    
+max_iters = 8500    
 eval_interval = 500  
 learning_rate = 3e-4
 eval_iters = 100
