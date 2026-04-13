@@ -71,8 +71,3 @@ def get_dataloaders(block_size, batch_size, train_split=0.9):
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 
     return train_loader, val_loader, train_dataset
-
-if __name__ == "__main__":
-
-    print("Testing...")
-    train_dl, val_dl, ds = get_dataloaders(block_size=8, batch_size=4)
