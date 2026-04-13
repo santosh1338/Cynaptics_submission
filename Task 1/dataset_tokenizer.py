@@ -14,11 +14,11 @@ def download_dataset() -> None:
 
 
     text_file = requests.get(url).text
-    with open(DATA_PATH, "w") as f:
+    with open(DATA_PATH, "w", encoding="utf-8") as f:
         f.write(text_file)
 
 def load_dataset(print_text=False) -> str:
-    with open(DATA_PATH, "r", as f:
+    with open(DATA_PATH, "r", encoding="utf-8") as f:
         txt = f.read()
 
     if print_text:
